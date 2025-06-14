@@ -1,3 +1,1 @@
-SELECT id, first_name, last_name
-FROM raw.jaffle_shop.customers
-LIMIT 10;
+SELECT * FROM analytics.stg_customers LIMIT 10;
